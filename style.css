@@ -5,7 +5,7 @@
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-    color: #09803d; /* Custom text color */
+    color: #09803d !important; /* Custom text color */
 }
 
 .navbar-custom .nav-link:hover {
