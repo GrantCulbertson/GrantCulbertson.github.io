@@ -10,11 +10,11 @@ body {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-    color: #09803d !important; /* Custom text color */
+    color: #59BE85 !important; /* Custom text color */
 }
 
 .navbar-custom .nav-link:hover {
-    color: #09803d; /* Custom hover text color */
+    color:#59BE85; /* Custom hover text color */
 }
 
 /* Additional customizations */
