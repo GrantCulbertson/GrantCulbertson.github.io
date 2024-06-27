@@ -1,3 +1,8 @@
+/* Custom Body Style to Test CSS File Loading */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+}
+
 /* ------------ Custom Navbar Styles -------------------- */
 .navbar-custom {
     background-color: #171f1f; /* Custom background color */
