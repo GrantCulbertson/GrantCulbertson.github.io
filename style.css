@@ -5,7 +5,7 @@ body {
 
 /* ------------ Custom Navbar Styles -------------------- */
 .navbar-custom {
-    background-color: #171f1f; /* Custom background color */
+    background-color: #000000; /* Custom background color */
 }
 
 .navbar-custom .navbar-brand,
@@ -19,6 +19,6 @@ body {
 
 /* Additional customizations */
 .navbar-custom .navbar-toggler {
-    border-color: #171f1f; /* Custom border color for the toggler */
+    border-color: #000000; /* Custom border color for the toggler */
 }
 /* ------------ END Custom Navbar Styles -------------------- */
