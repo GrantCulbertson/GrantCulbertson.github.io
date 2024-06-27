@@ -22,3 +22,20 @@ body {
     border-color: #000000; /* Custom border color for the toggler */
 }
 /* ------------ END Custom Navbar Styles -------------------- */
+
+/*---------------- Custom Jumbotron Styles -------------------*/
+.jumbotron {
+    background-color: #e9ecef; /* Custom background color */
+    color: #333; /* Custom text color */
+}
+
+.jumbotron .btn-primary {
+    background-color: #09803d; /* Custom button color */
+    border-color: #09803d;
+}
+
+.jumbotron .btn-primary:hover {
+    background-color: #065029; /* Custom button hover color */
+    border-color: #065029;
+}
+/*---------------- End Jumbotron Styles -------------------*/
