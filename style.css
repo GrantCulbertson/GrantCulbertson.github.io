@@ -1,11 +1,19 @@
-/* Remove the navbar's default margin-bottom and rounded borders */ 
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
+/* ------------ Custom Navbar Styles -------------------- */
+.navbar-custom {
+    background-color: #333333; /* Custom background color */
 }
-    
-/* Add a gray background color and some padding to the footer */
-footer {
-    background-color: #f2f2f2;
-    padding: 25px;
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff; /* Custom text color */
 }
+
+.navbar-custom .nav-link:hover {
+    color: #ff9900; /* Custom hover text color */
+}
+
+/* Additional customizations */
+.navbar-custom .navbar-toggler {
+    border-color: #ffffff; /* Custom border color for the toggler */
+}
+/* ------------ END Custom Navbar Styles -------------------- */
