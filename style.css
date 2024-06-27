@@ -1,19 +1,19 @@
 /* ------------ Custom Navbar Styles -------------------- */
 .navbar-custom {
-    background-color: #333333; /* Custom background color */
+    background-color: #171f1f; /* Custom background color */
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-    color: #ffffff; /* Custom text color */
+    color: #171f1f; /* Custom text color */
 }
 
 .navbar-custom .nav-link:hover {
-    color: #ff9900; /* Custom hover text color */
+    color: #09803d; /* Custom hover text color */
 }
 
 /* Additional customizations */
 .navbar-custom .navbar-toggler {
-    border-color: #ffffff; /* Custom border color for the toggler */
+    border-color: #171f1f; /* Custom border color for the toggler */
 }
 /* ------------ END Custom Navbar Styles -------------------- */
