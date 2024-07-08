@@ -79,8 +79,8 @@ body {
 
 /*---------------- Custom Card Styles -------------------*/
 .custom-image {
-    width: auto; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 90%; /* Adjust width as needed */
+    height: 90%; /* Maintain aspect ratio */
     max-width: 90%; /* Maximum width */
 }
 /*---------------- End Card Styles -------------------*/
