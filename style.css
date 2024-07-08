@@ -1,6 +1,6 @@
 /* Custom Body Style to Test CSS File Loading */
 body {
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #F0F4EF; /* Light gray background */
 }
 
 /* ------------ Custom Navbar Styles -------------------- */
@@ -30,12 +30,12 @@ body {
 }
 
 .jumbotron .btn-primary {
-    background-color: #344966; /* Custom button color */
-    border-color: #344966;
+    background-color: #0D1821; /* Custom button color */
+    border-color: #0D1821;
 }
 
 .jumbotron .btn-primary:hover {
-    background-color: #344966; /* Custom button hover color */
-    border-color: #344966;
+    background-color: #0D1821; /* Custom button hover color */
+    border-color: #0D1821;
 }
 /*---------------- End Jumbotron Styles -------------------*/
