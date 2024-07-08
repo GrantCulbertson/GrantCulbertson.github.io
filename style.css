@@ -30,12 +30,12 @@ body {
 }
 
 .jumbotron .btn-primary {
-    background-color: #B4CDED; /* Custom button color */
-    border-color: #B4CDED;
+    background-color: #344966; /* Custom button color */
+    border-color: #344966;
 }
 
 .jumbotron .btn-primary:hover {
-    background-color: #B4CDED; /* Custom button hover color */
-    border-color: #B4CDED;
+    background-color: #344966; /* Custom button hover color */
+    border-color: #344966;
 }
 /*---------------- End Jumbotron Styles -------------------*/
