@@ -43,7 +43,7 @@ body {
 /* Custom Separator Line */
 .separator {
     border: 0;
-    height: 3px;
+    height: 10px;
     background: #0D1821; /* Black color */
     margin: 20px 0; /* Adjust the spacing as needed */
 }
