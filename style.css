@@ -99,7 +99,7 @@ body {
 .jumbotron .image-container img {
     max-width: 90%; /* Adjust image size as needed */
     height: auto; /* Maintain aspect ratio */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+    box-shadow: 0 4px 8px #0D1821; /* Add drop shadow */
 }
 /*---------------- End Jumbotron Styles -------------------*/
 
