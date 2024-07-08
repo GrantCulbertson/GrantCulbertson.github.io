@@ -90,8 +90,8 @@ body {
 /*---------------- Custom Footer Styles -------------------*/
 /* Custom Footer Styles */
 footer.custom-footer {
-    color: #0D1821; /* Custom background color */
-    background-color: #BFCC94; /* Custom text color */
+    color: #BFCC94; /* Custom background color */
+    background-color: #0D1821; /* Custom text color */
 }
 
 footer.custom-footer a {
