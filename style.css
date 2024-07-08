@@ -39,3 +39,12 @@ body {
     border-color: #0D1821;
 }
 /*---------------- End Jumbotron Styles -------------------*/
+
+/* Custom Separator Line */
+.separator {
+    border: 0;
+    height: 3px;
+    background: #0D1821; /* Black color */
+    margin: 20px 0; /* Adjust the spacing as needed */
+}
+/* END CUSTOM SEPARATOR */
