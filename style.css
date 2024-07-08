@@ -9,12 +9,12 @@ body {
 }
 
 .navbar-custom .navbar-brand,
-.navbar-custom .nav-link {
+.navbar-custom .navbar-nav .nav-link {
     color: #BFCC94 !important; /* Custom text color */
 }
 
-.navbar-custom .nav-link:hover {
-    color:#BFCC94; /* Custom hover text color */
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #BFCC94; /* Custom hover text color */
 }
 
 /* Additional customizations */
@@ -34,8 +34,8 @@ body {
 }
 
 .jumbotron .btn-primary {
-    background-color: #0D1821; /* Custom button color */
-    border-color: #0D1821;
+    background-color: #344966; /* Custom button color */
+    border-color: #344966;
 }
 
 .jumbotron .btn-primary:hover {
@@ -47,6 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* Center items vertically */
     padding: 2rem; /* Adjust padding as needed */
 }
 
@@ -58,7 +59,14 @@ body {
 
 .jumbotron .text-container {
     flex: 1;
-    padding-right: 2rem; /* Adjust as needed */
+    text-align: center; /* Center text on small screens */
+}
+
+@media (min-width: 768px) {
+    .jumbotron .text-container {
+        text-align: left; /* Left align text on medium and larger screens */
+        padding-right: 2rem; /* Adjust as needed */
+    }
 }
 
 .jumbotron h1 {
@@ -100,9 +108,9 @@ body {
     height: auto; /* Maintain aspect ratio */
     max-width: 75%; /* Maximum width */
     max-height: 75%; /* Maximum height */
+    box-shadow: 0 4px 8px #0D1821; /* Add drop shadow */
 }
 /*---------------- End Card Styles -------------------*/
-
 
 /*---------------- Custom Footer Styles -------------------*/
 /* Custom Footer Styles */
