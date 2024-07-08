@@ -42,6 +42,30 @@ body {
     background-color: #0D1821; /* Custom button hover color */
     border-color: #0D1821;
 }
+
+/* Ensure the image and text are aligned horizontally */
+.jumbotron .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbotron .container .text-center,
+.jumbotron .container .text-md-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .jumbotron .container {
+        flex-direction: row;
+    }
+
+    .jumbotron .container .ml-md-4 {
+        margin-left: 1.5rem; /* Adjust as needed for spacing */
+    }
+}
 /*---------------- End Jumbotron Styles -------------------*/
 
 /* Custom Separator Line */
