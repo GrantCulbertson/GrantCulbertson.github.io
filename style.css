@@ -5,37 +5,37 @@ body {
 
 /* ------------ Custom Navbar Styles -------------------- */
 .navbar-custom {
-    background-color: #000000; /* Custom background color */
+    background-color: #0D1821; /* Custom background color */
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-    color: #59BE85 !important; /* Custom text color */
+    color: #BFCC94 !important; /* Custom text color */
 }
 
 .navbar-custom .nav-link:hover {
-    color:#59BE85; /* Custom hover text color */
+    color:#BFCC94; /* Custom hover text color */
 }
 
 /* Additional customizations */
 .navbar-custom .navbar-toggler {
-    border-color: #000000; /* Custom border color for the toggler */
+    border-color: #BFCC94; /* Custom border color for the toggler */
 }
 /* ------------ END Custom Navbar Styles -------------------- */
 
 /*---------------- Custom Jumbotron Styles -------------------*/
 .jumbotron {
-    background-color: #e9ecef; /* Custom background color */
-    color: #333; /* Custom text color */
+    background-color: #F0F4EF; /* Custom background color */
+    color: #0D1821; /* Custom text color */
 }
 
 .jumbotron .btn-primary {
-    background-color: #09803d; /* Custom button color */
-    border-color: #09803d;
+    background-color: #B4CDED; /* Custom button color */
+    border-color: #B4CDED;
 }
 
 .jumbotron .btn-primary:hover {
-    background-color: #065029; /* Custom button hover color */
-    border-color: #065029;
+    background-color: #B4CDED; /* Custom button hover color */
+    border-color: #B4CDED;
 }
 /*---------------- End Jumbotron Styles -------------------*/
