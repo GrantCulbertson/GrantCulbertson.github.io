@@ -52,3 +52,11 @@ body {
     margin: 20px 0; /* Adjust the spacing as needed */
 }
 /* END CUSTOM SEPARATOR */
+
+/*---------------- Custom Card Styles -------------------*/
+.custom-image {
+    width: 80%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 80%; /* Maximum width */
+}
+/*---------------- End Card Styles -------------------*/
