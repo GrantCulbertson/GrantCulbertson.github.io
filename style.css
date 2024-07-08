@@ -29,19 +29,28 @@ body {
 
 /*---------------- Custom Jumbotron Styles -------------------*/
 .jumbotron {
-    background-color: #F0F4EF; /* Custom background color */
+    background-color: #F0F4EF; /* Default background color for small screens */
     color: #0D1821; /* Custom text color */
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        background: linear-gradient(#BFCC94 0%, #BFCC94 20%, #F0F4EF 20%, #F0F4EF 100%); /* Gradient background for larger screens */
+    }
 }
 
 .jumbotron .btn-primary {
     background-color: #344966; /* Custom button color */
-    border-color: #344966;
+    border-color: #344966; /* Custom button border color */
+    color: #F0F4EF; /* Custom button text color */
 }
 
 .jumbotron .btn-primary:hover {
-    background-color: #0D1821; /* Custom button hover color */
-    border-color: #0D1821;
+    background-color: #B4CDED; /* Custom button hover color */
+    border-color: #B4CDED; /* Custom button hover border color */
+    color: #0D1821; /* Custom button hover text color */
 }
+
 
 .jumbotron .container {
     display: flex;
@@ -90,6 +99,7 @@ body {
 .jumbotron .image-container img {
     max-width: 90%; /* Adjust image size as needed */
     height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add drop shadow */
 }
 /*---------------- End Jumbotron Styles -------------------*/
 
@@ -108,7 +118,7 @@ body {
     height: auto; /* Maintain aspect ratio */
     max-width: 75%; /* Maximum width */
     max-height: 75%; /* Maximum height */
-    box-shadow: 0 4px 8px #0D1821; /* Add drop shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add drop shadow */
 }
 /*---------------- End Card Styles -------------------*/
 
