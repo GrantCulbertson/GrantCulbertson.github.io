@@ -21,6 +21,10 @@ body {
 .navbar-custom .navbar-toggler {
     border-color: #BFCC94; /* Custom border color for the toggler */
 }
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: #BFCC94;
+}
 /* ------------ END Custom Navbar Styles -------------------- */
 
 /*---------------- Custom Jumbotron Styles -------------------*/
