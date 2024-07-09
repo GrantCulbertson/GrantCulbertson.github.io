@@ -172,19 +172,31 @@ footer.custom-footer a:hover {
     padding: 10px 15px;
     text-decoration: none;
     font-size: 18px;
-    color: #0D1821;
+    color: #000;
     display: block;
 }
 
 .sidebar a:hover {
     background-color: #ddd;
-    color: #0D1821;
+    color: #000;
 }
 
 .content {
     margin-left: 220px; /* Same as the width of the sidebar + 20px padding */
     padding: 20px;
 }
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        display: none; /* Hide the sidebar on small screens */
+    }
+    .content {
+        margin-left: 0; /* Remove the margin-left on small screens */
+        padding: 10px; /* Adjust padding for better spacing */
+    }
+}
+
+/* Other CSS rules... */
 
 .section {
     padding: 60px 0; /* Padding for spacing */
