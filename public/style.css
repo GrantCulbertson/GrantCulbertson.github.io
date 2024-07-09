@@ -155,3 +155,38 @@ footer.custom-footer a:hover {
     color: #98A75F; /* Custom link hover color */
 }
 /*---------------- End Footer Styles -------------------*/
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 60px; /* Height of the navbar */
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #0D1821;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+    color: #0D1821;
+}
+
+.content {
+    margin-left: 220px; /* Same as the width of the sidebar + 20px padding */
+    padding: 20px;
+}
+
+.section {
+    padding: 60px 0; /* Padding for spacing */
+}
+/* End Sidebar Styles */
