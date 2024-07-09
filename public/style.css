@@ -190,3 +190,29 @@ footer.custom-footer a:hover {
     padding: 60px 0; /* Padding for spacing */
 }
 /* End Sidebar Styles */
+
+/* General link styles */
+a {
+    color: #007bff; /* Change this to your desired color */
+    text-decoration: none; /* Optional: Removes underline from links */
+}
+
+a:hover {
+    color: #0056b3; /* Change this to your desired hover color */
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+/* End General link styles */
+
+/* Flex container styles */
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container img {
+    margin-left: 20px; /* Space between text and image */
+    width: auto; /* Adjust the width as needed */
+    height: 100px; /* Maintain aspect ratio */
+    align-self: flex-end; /* Align image to the bottom */
+}
+/* End Flex container styles */
