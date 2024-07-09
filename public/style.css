@@ -203,16 +203,18 @@ a:hover {
 }
 /* End General link styles */
 
-/* Flex container styles */
 .flex-container {
     display: flex;
-    align-items: center;
+    align-items: flex-end; /* Align items to the bottom */
+}
+
+.flex-container h3 {
+    margin: 0; /* Remove default margin */
 }
 
 .flex-container img {
     margin-left: 20px; /* Space between text and image */
-    width: auto; /* Adjust the width as needed */
-    height: 100px; /* Maintain aspect ratio */
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
     align-self: flex-end; /* Align image to the bottom */
 }
-/* End Flex container styles */
