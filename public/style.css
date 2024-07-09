@@ -51,13 +51,12 @@ body {
     color: #0D1821; /* Custom button hover text color */
 }
 
-
 .jumbotron .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; /* Center items vertically */
-    padding: 2rem; /* Adjust padding as needed */
+    padding: 1.5rem; /* Adjust padding as needed */
 }
 
 @media (min-width: 768px) {
@@ -80,12 +79,30 @@ body {
 
 .jumbotron h1 {
     white-space: nowrap; /* Prevent line breaks */
-    font-size: 5rem; /* Adjust font size as needed */
+    font-size: 4rem; /* Adjust font size as needed */
+    margin: 0; /* Remove default margins */
 }
 
 @media (max-width: 767.98px) {
     .jumbotron h1 {
-        font-size: 2rem; /* Adjust font size for smaller screens */
+        font-size: 3rem; /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 575.98px) {
+    .jumbotron h1 {
+        font-size: 2rem; /* Adjust font size for extra small screens */
+    }
+}
+
+.jumbotron .lead {
+    font-size: 1.25rem; /* Adjust lead text size */
+    margin-bottom: 1rem; /* Add space below the lead text */
+}
+
+@media (max-width: 767.98px) {
+    .jumbotron .lead {
+        font-size: 1rem; /* Adjust lead text size for smaller screens */
     }
 }
 
@@ -97,10 +114,11 @@ body {
 }
 
 .jumbotron .image-container img {
-    max-width: 90%; /* Adjust image size as needed */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 75%; /* Ensure image takes up full width available */
+    height: 75%; /* Maintain aspect ratio */
     box-shadow: 0 4px 8px #0D1821; /* Add drop shadow */
 }
+
 /*---------------- End Jumbotron Styles -------------------*/
 
 /* Custom Separator Line */
