@@ -1,3 +1,4 @@
+
 /* Custom Body Style to Test CSS File Loading */
 body {
     background-color: #F0F4EF; /* Light gray background */
@@ -229,4 +230,34 @@ a:hover {
     width: 50px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     align-self: flex-end; /* Align image to the bottom */
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 56px - 56px); /* Adjusting for navbar and footer height */
+    padding-top: 20px; /* Space above the form */
+    padding-bottom: 20px; /* Space below the form */
+}
+.contact-form {
+    background: #B4CDED;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width */
+    max-width: 800px; /* Maximum width */
+    color: #0D1821
+}
+
+.contact-form-container .btn-primary {
+    background-color: #344966; /* Custom button color */
+    border-color: #344966; /* Custom button border color */
+    color: #F0F4EF; /* Custom button text color */
+}
+
+.contact-form-container .btn-primary:hover {
+    background-color: #F0F4EF; /* Custom button hover color */
+    border-color: #F0F4EF; /* Custom button hover border color */
+    color: #0D1821; /* Custom button hover text color */
 }

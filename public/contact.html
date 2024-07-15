@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Grant Culbertson</title>
+    <title>Contact Grant Culbertson</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
@@ -28,7 +28,7 @@
                     <a class="nav-link" href="/public/experience.html">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/public/contact.html">Contact</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -45,31 +45,28 @@
         </div>
     </nav>
 
-<!-- Jumbotron -------------------->
-<div class="jumbotron">
-    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-center">
-        <div class="text-container text-center">
-            <h1 class="display-4">Grant Culbertson</h1>
-            <p class="lead">Senior, Economics and Statistics Student at Kenyon College.</p>
-            <hr class="my-4">
-            <a class="btn btn-primary btn-lg" href="/public/experience.html" role="button">My Experience</a>
-        </div>
-        <div class="image-container ml-md-4 mt-4 mt-md-0 d-flex justify-content-center">
-            <img src="/public/images/me_in_berlin.jpg" class="img-fluid custom-image" alt="Ermmm what the sigma... there should be an image here woops!">
-        </div>
+<!-- Contact me Form -------------------------->
+    <div class="contact-form-container">
+                <div class="contact-form">
+                    <h2 class="text-center mb-4">Contact Me</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send</button>
+                    </form>
+                </div>
     </div>
-</div>
-<!-- End Jumbotron -------------------->
-
-<!-- Separator Line -->
-<hr class="separator">
-
-<!-- About Me Section -->
-<div class="container">
-    <h2><b>About Me</b></h2>
-    <p>Hi, nice to meet you!</p>
-    
-</div>
+<!-- End Contact me Form ----------------------->
 
 <!-- Footer ------------------>
 <footer class="custom-footer text-center py-3">
