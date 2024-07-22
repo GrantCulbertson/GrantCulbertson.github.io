@@ -2,6 +2,8 @@
 /* Custom Body Style to Test CSS File Loading */
 body {
     background-color: #F0F4EF; /* Light gray background */
+    display: flex;
+    flex-direction: column;
 }
 
 /* ------------ Custom Navbar Styles -------------------- */
@@ -155,6 +157,16 @@ footer.custom-footer a {
 footer.custom-footer a:hover {
     color: #98A75F; /* Custom link hover color */
 }
+
+.custom-footer {
+    background-color: #0D1821; /* or any other desired background color */
+    color: #BFCC94; /* Custom text color */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 0;
+    margin: 0; /* Ensure no extra margins */
+}
 /*---------------- End Footer Styles -------------------*/
 
 /* Sidebar Styles */
@@ -201,6 +213,7 @@ footer.custom-footer a:hover {
 
 .section {
     padding: 60px 0; /* Padding for spacing */
+    flex: 1;
 }
 /* End Sidebar Styles */
 
@@ -261,3 +274,24 @@ a:hover {
     border-color: #F0F4EF; /* Custom button hover border color */
     color: #0D1821; /* Custom button hover text color */
 }
+
+
+/* Image Carousel Styles */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    display: block; /* Ensures the carousel items are displayed as block elements */
+}
+/* End Image Carousel Styles */
