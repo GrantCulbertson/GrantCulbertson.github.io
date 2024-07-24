@@ -4,6 +4,7 @@ body {
     background-color: #F0F4EF; /* Light gray background */
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 /* ------------ Custom Navbar Styles -------------------- */
@@ -148,7 +149,10 @@ body {
 footer.custom-footer {
     color: #BFCC94; /* Custom background color */
     background-color: #0D1821; /* Custom text color */
+    margin-top: auto;
 }
+
+
 
 footer.custom-footer a {
     color: #BFCC94; /* Custom link color */
@@ -170,6 +174,7 @@ footer.custom-footer a:hover {
 /*---------------- End Footer Styles -------------------*/
 
 /* Sidebar Styles */
+/* Sidebar Styles */
 .sidebar {
     position: fixed;
     top: 60px; /* Height of the navbar */
@@ -179,6 +184,8 @@ footer.custom-footer a:hover {
     background-color: #f8f9fa;
     padding-top: 20px;
     border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar a {
@@ -186,7 +193,14 @@ footer.custom-footer a:hover {
     text-decoration: none;
     font-size: 18px;
     color: #000;
-    display: block;
+    display: flex;
+    align-items: center; /* Align icons and text */
+}
+
+.sidebar a i {
+    margin-right: 10px; /* Space between icon and text */
+    min-width: 20px; /* Ensure all icons take the same space */
+    text-align: center; /* Center the icons */
 }
 
 .sidebar a:hover {
